@@ -2,12 +2,12 @@
 -- PostgreSQL database dump
 --
 
-\restrict mRyzo3BZ7wPUfNFaeXH5Fu7o543y3Q1LF4vt7fEwo4obIpReqwBje4BbwXatOhB
+\restrict UnRQ1LWqnPylWpOlbqP7bhqw1NckCvf0aP8p9JHLQNx6zGymmnCyjBJKMMj2sfj
 
 -- Dumped from database version 17.2
 -- Dumped by pg_dump version 18.1
 
--- Started on 2026-05-03 20:57:28
+-- Started on 2026-05-03 21:17:56
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -46,6 +46,16 @@ ALTER TABLE public."Usuarios" OWNER TO postgres;
 --
 
 COPY public."Usuarios" ("ID", "Usuario", "Password") FROM stdin;
+9	simone	9876
+8	jasmine	8567
+7	jhony	7856
+6	bryan	6785
+5	darwin	5678
+4	hector	4123
+3	lucero	3412
+2	belen	2341
+1	cynthia	1234
+10	lucero	8767
 \.
 
 
@@ -58,11 +68,11 @@ ALTER TABLE ONLY public."Usuarios"
     ADD CONSTRAINT "pk_ID_Usuarios" PRIMARY KEY ("ID");
 
 
--- Completed on 2026-05-03 20:57:28
+-- Completed on 2026-05-03 21:17:56
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict mRyzo3BZ7wPUfNFaeXH5Fu7o543y3Q1LF4vt7fEwo4obIpReqwBje4BbwXatOhB
+\unrestrict UnRQ1LWqnPylWpOlbqP7bhqw1NckCvf0aP8p9JHLQNx6zGymmnCyjBJKMMj2sfj
 
